@@ -1,0 +1,143 @@
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: rgba(255, 252, 84, 0.966);
+    display: grid;
+    grid-template-columns: 150px 1fr 300px;
+    padding:10px 40px;
+    row-gap: 20px;
+    column-gap: 50px;
+}
+
+@media only screen and (max-width: 982px){
+    .explore{
+        display: none;
+    }
+}
+
+.logo{
+    height: 40px;
+}
+
+.search-box{
+    height: 40px;
+    display: flex;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.location{
+    height: 30px;
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+
+}
+.prom{
+    height: 40px;
+    
+}
+.explore{
+    height: 30px;
+    display: flex;
+    border: none
+}
+.account{
+    height: 30px;
+    display: flex;
+    vertical-align: end;
+    justify-content: right;
+}
+.mercado-img{
+    width: 100%;
+}
+.search-bar{
+    height: 39px;
+    flex: 1;
+    padding-left: 16px;
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+    border-radius: 3px;
+    border: none;
+    margin: 0px;
+}
+.search-bar::placeholder{
+    color: rgb(197, 197, 197);
+}
+.search-icon{
+    width: 15px;
+    margin: 0px;
+}
+.search-icon-frame{
+    margin-left: -5px;
+    width: 40px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.disney-prom{
+    width: 100%;
+}
+.explore-button,
+.explore-button1{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgba(99, 99, 99, 0.918);
+    transition: color 0.25s;
+    display: flex;
+    align-items: end;
+    padding: 4px 15px;
+}
+.explore-button:hover{
+    color: black;
+    cursor:pointer;
+    transition: color 0.25;
+}
+.location-icon{
+    width: 13px;
+    margin-left: -10px;
+    margin-right: 4px ;
+}
+.log-button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(51, 51, 51);
+    transition: color 0.25s;
+    display: flex;
+    align-items: end;
+    padding: 4px 8px;
+    white-space: nowrap;
+}
+.log-button:hover{
+    cursor: pointer;
+    color: rgb(14, 14, 14);
+    transition: color 0.25;
+}
+.log-cart{
+    display: flex;
+    align-items: end;
+}
+.shopping-cart-icon{
+    width: 20px;
+}
+.local{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 14px;
+    display: flex;
+    align-items: end;
+    padding: 4px 15px;
+    white-space: nowrap;
+}
+.local:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+}

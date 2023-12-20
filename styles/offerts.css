@@ -1,0 +1,13 @@
+.ofertas{
+    display: flex;
+    margin-left: 55px;
+    align-items: end;
+}
+.off{
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.more-off{
+    color: rgb(0, 102, 255);
+}
